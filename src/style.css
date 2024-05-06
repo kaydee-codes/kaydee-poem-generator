@@ -1,3 +1,57 @@
 body {
   background: #e1d6fe;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+form {
+  padding: 30px;
+  background-color: #ebf794;
+  border-radius: 60px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+.prompt {
+  padding: 16px;
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 20px 0px 0px 20px;
+}
+.sumbit {
+  margin-left: 5px;
+  padding: 16px;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  background-color: #e1d6fe;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.poem {
+  font-size: 14px;
+  background-color: #ebf794;
+  padding: 20px;
+  line-height: 24px;
+  border-radius: 60px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+a {
+  color: blueviolet;
 }

@@ -3,30 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Nature Poem Generator</title>
   </head>
   <body>
-    <h1>AI Nature Poem Generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Please enter the topic of your poem..."
-          autofocus
-          required
-          autocapitalize="off"
-        />
-        <input type="submit" />
-        <div>the poem will go here</div>
-      </form>
-    </main>
-    <footer>
-      This project is coded by
-      <a href="https://github.com/kaydee-codes" target="_blank">Kaydee</a> and
-      is open-sourced on
-      <a href="https://github.com/" target="_blank">Github</a>.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Nature Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            class="prompt"
+            type="text"
+            placeholder="Please enter the topic of your poem..."
+            autofocus
+            required
+            autocapitalize="off"
+          />
+          <input class="sumbit" type="submit" />
+        </form>
+        <div class="poem">the poem will go here</div>
+      </main>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/kaydee-codes" target="_blank">Kaydee</a> and
+        is open-sourced on
+        <a href="https://github.com/" target="_blank">Github</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
