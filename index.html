@@ -20,19 +20,22 @@
         <h1>AI Nature Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            class="prompt"
-            type="text"
-            placeholder="Please enter the topic of your poem..."
-            autofocus
-            required
-            autocapitalize="off"
-            id="user-prompt"
-          />
-          <input class="sumbit" type="submit" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              class="prompt"
+              type="text"
+              placeholder="Please enter the topic of your nature poem..."
+              autofocus
+              required
+              autocapitalize="off"
+              id="user-prompt"
+            />
+            <input class="sumbit" type="submit" />
+          </form>
+          <div class="hint">i.e: Flowers, Lakes, Seasons...</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project is coded by

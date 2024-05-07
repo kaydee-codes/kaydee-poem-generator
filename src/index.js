@@ -18,6 +18,10 @@ function generatePoem(event) {
     "You are a nature poem expert and you love to write short poems. You are required to generate a four line poem about nature in basic HTML form and seperate each line with a <br />. Please include a title and underline it. Please make sure to follow the users instructions.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `Creating your poem about ${instructionsInput.value}...`;
+
   axios.get(apiUrl).then(displayPoem);
 }
 
